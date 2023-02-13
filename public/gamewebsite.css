@@ -1,0 +1,135 @@
+body{
+    background-color:black; 
+    overflow-x: hidden;
+}
+.top-section{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background-color:#212529;
+    position:fixed  ;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    right: 0;
+    box-sizing:border; 
+    z-index:1;
+    min-width:735px;
+}
+.login,.about,.tournaments{
+    text-decoration:none;
+    user-select: none;
+    color:#05f37c;
+}
+.left-part{
+    justify-content: center;
+    margin-left:130px ;
+    font-size: 19px;
+    color:#05f37c;
+}
+.right-part{
+    justify-content:center;
+    color:#05f37c;
+    font-size:19px ;
+    display: flex;
+    align-items:center;
+    
+    
+}
+.about,.tournaments{
+    display: inline block; 
+    margin-left:85px ;
+    
+}
+
+.image{
+    z-index:0;
+    margin-top: 0;
+    user-select: none;
+    margin-left:-300px;
+    min-width:775px;
+}
+.featured{
+ font-weight:60;
+ margin-top: 60px;
+ color: white;
+ font-size: 1.5em;
+ font-family: 'Montserrat', sans-serif;
+}
+.games-section{
+    margin-left: 200px;
+    margin-right: 300px;
+}
+.pubg-card{
+    border: 2px solid rgb(62%, 48% ,0%);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 950px;
+    height: 350px;
+    min-width:860px;
+}
+.title {
+    color: white;
+}
+.text  {
+    color: white;;
+  margin:20px ;
+    font-size: 1.5em;
+    font-family: Montserrat;
+}
+
+.button {
+margin-top:4px; 
+    width:150px;
+    height: 51.9px;
+    margin-top:0px;
+    margin-left:0px;
+    font-size: 29px;
+    color: black;
+    vertical-align:bottom;
+    background-color:#05f37c ;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    
+}
+.date{
+    background-color:#212529;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    margin-top: 10px;
+    margin-right:0px;
+    height: 50px;
+    padding: 10px;
+    display: inline-block ;
+    font-size:15px ;
+    vertical-align: top;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-self: center;
+}
+.pubgimage{
+    position: absolute;
+    left: -5px;
+   
+    width: 350px;
+    height: 340px; 
+    align-self:right  ;
+   
+    object-fit: cover ;
+    object-position:0px;
+}
+
+
+
+.sanju{
+height: 50px;
+}
+.login:hover,.about:hover,.tournaments:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dropdown-item:hover{
+ background-color: gray;
+}
+.navbar{
+background-color: #212529;
+}
